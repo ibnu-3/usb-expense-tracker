@@ -13,7 +13,7 @@ const port = process.env.PORT;
 const app = express();
 app.use(
   cors({
-    origin: "https://effective-engine-r4vx4vgwv99435x6p-5173.app.github.dev",
+    origin: "https://zany-couscous-g4wp4wq6ww94cwp4v-5173.app.github.dev",
     allowedHeaders: [
       "Content-Type",
       "Authorization",

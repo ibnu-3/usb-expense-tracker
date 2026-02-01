@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://effective-engine-r4vx4vgwv99435x6p-8080.app.github.dev",
+  baseURL: "https://zany-couscous-g4wp4wq6ww94cwp4v-8080.app.github.dev/",
   withCredentials: true,
 });
 axiosInstance.interceptors.request.use(
